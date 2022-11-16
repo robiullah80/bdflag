@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1, h2, h3, h4, h5, h6,{
+	font-family: sans-serif;
+}
+a, a:{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	 background: red;
+	 border-radius: 100%;
+	 position: absolute;
+	transform: translate(100%, 50%);
+}
+.fb-share{
+	width: 170px;
+	position: fixed;
+	top: 200px;
+	right: -110px;
+	transition: 1s;
+	cursor: pointer;
+
+
+}
+.yt-share{
+	width: 180px;
+	position: fixed;
+	top: 280px;
+	right: -120px;
+	transition: 1s;
+	cursor: pointer;
+
+}
+.twitter-share{
+	width: 180px;
+	position: fixed;
+	top: 345px;
+	right: -120px;
+	transition: 1s;
+	cursor: pointer;
+}
+.fb-share:hover{
+	right: 0px;
+}
+.yt-share:hover{
+	right: 0px;
+}
+.twitter-share:hover{
+	right: 0px;
+
+}
+.social-icons{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	background: #00008B;
+}
+.social-icons  li{
+	list-style: none;
+	display: inline-block;
+	
+
+}
+.social-icons  li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	margin: 0px 12px;
+	font-size: 30px;
+	color: #fff;
+	border: 1px solid #000;
+	transition: 1s;
+
+
+}
+.social-icons  li a:hover{
+	color: #000;
+	border: 1px solid #000;
+}
+
+.social-icons  li a{
+	transform: translate(500%, 0%);
+
+}
